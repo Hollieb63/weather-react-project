@@ -1,0 +1,41 @@
+body{
+    background:#F9F7FE;
+    font-family: sans-serif;
+    
+}
+
+.Weather{
+    border: 2px solid #928EA0;
+    max-width: 600px;
+   margin:0 auto;
+   padding: 30px;
+   margin: 40px auto;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+   border-radius: 10px;
+   background:#ffff;
+   color: #928EA0;
+   
+   }
+   h1{
+    font-size: 36px;
+      font-family: "Roboto Condensed", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      color:#9c9aa5;
+    }
+
+   ul{
+    list-style: none;
+    color:#9c9aa5;
+    font-size: 18px;
+    padding: 0px;
+   }
+ 
+   form{
+    margin-bottom: 10px;
+    
+   }
+   span.temperature{
+    font-size: 26px;
+   }
