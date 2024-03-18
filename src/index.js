@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    <App rel="noopener noreferrer"/>
+    <App/>
   </React.StrictMode>
 );
 
