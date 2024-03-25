@@ -2,15 +2,20 @@ import React, {useState} from "react";
 import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 import axios from "axios";
+import WeatherForecast from "./WeatherForecast";
+
+
+
 
 
 export default function Weather(props){
-    
+   
     const [weatherData, setWeatherData]=useState({ready:false});
    const[city, setCity]=useState(props.defaultCity);
 
 
 function handleResponse(response) {
+
     setWeatherData({
         ready:true,
         temperature:response.data.temperature.current,
@@ -58,6 +63,7 @@ if (weatherData.ready) {
             </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <WeatherForecast/>
         </div>
     );
         

@@ -1,5 +1,5 @@
 import React from "react";
-
+import WeatherIcons from "./WeatherIcons";
 import FormattedDate from "./FormattedDate";
 
 
@@ -17,7 +17,7 @@ return(
         
         <div className="row">
             <div className="col-6">
-            <img src={props.data.iconUrl} className="float-left" alt="WeatherIcon"></img>
+            <WeatherIcons code={props.data.icon} size={52} />
                 
                 <strong><span className="temperature"> {Math.round(props.data.temperature)}</span>
                 <span className="celsius">°C</span></strong>
