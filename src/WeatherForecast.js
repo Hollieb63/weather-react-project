@@ -20,7 +20,7 @@ useEffect(() => {
 
 
   function handleForecastResponse(response) {
-    setForecast(response.data.temperature.current);
+    setForecast(response.data.daily);
     setLoaded(true);
   }
 

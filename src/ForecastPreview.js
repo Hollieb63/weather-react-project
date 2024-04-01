@@ -12,7 +12,8 @@ return days[day];
 
  function maxTemp (){
     let temperature=Math.round(props.data.temperature.maximum);
-    return `${temperature}°`;
+    return `${temperature}°/ `;
+  
 }
 
 function minTemp(){
@@ -23,7 +24,7 @@ function minTemp(){
 return (
     <div className="ForecastPreview">
       <div className="forecast-time">{day()}</div>
-      <WeatherIcons code={props.data.condition.icon} size={38} />
+      <WeatherIcons code={props.data.condition.icon} size={52} />
       <div className="forecast-temperature">
         <span className="forecast-temperature-max">{maxTemp()}</span>
         <span className="forecast-temperature-min">{minTemp()}</span>

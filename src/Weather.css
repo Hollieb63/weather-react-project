@@ -8,7 +8,7 @@ body{
     border: 2px solid #928EA0;
     max-width: 600px;
    margin:0 auto;
-   padding: 30px;
+   padding: 20px;
    margin: 40px auto;
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
    border-radius: 10px;
@@ -38,6 +38,6 @@ body{
     border-bottom: 1px solid #f9f7fe ;
     
    }
-   span.temperature{
+   .temperature{
     font-size: 26px;
    }
